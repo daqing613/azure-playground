@@ -6,15 +6,14 @@ public class SpeechSynthesisWithViseme {
     public static void main(String[] args) {
         try {
             // Replace with your own subscription key and region
-            String subscriptionKey = "xxxxxxxxxxxxxxxxxxxx";
-            String region = "xxxx";
+            String subscriptionKey = "1a37c2b2c1ad42af93fc80fce6bb38fb";
+            String region = "eastus";
 
             // Replace with your own SSML string
             String ssml = "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' "
                 + "xmlns:mstts='https://www.w3.org/2001/mstts' xml:lang='en-US'>"
                 + "<voice name='en-US-AriaNeural'>"
-                + "<mstts:viseme type='open' time='500'/>Hello<mstts:viseme type='midopen' time='1000'/>world"
-                + "<mstts:viseme type='mid' time='1500'/>!<mstts:viseme type='closed' time='2000'/>"
+                + "<mstts:viseme  type=\"FacialExpression\" time='500'/>Hello<mstts:viseme  type=\"FacialExpression\" time='1000'/>world"
                 + "</voice></speak>";
 
             // Creates an instance of a speech synthesizer
