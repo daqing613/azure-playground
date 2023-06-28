@@ -83,3 +83,15 @@ nb-configuration.xml
 ## OS X
 ##############################
 .DS_Store
+
+
+##############################
+## Python virtualenv
+##############################
+venv/
+ENV/
+env/
+venv.bak/
+venv.bak2/
+.env/
+**/.env
