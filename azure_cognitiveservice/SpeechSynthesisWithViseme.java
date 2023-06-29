@@ -6,8 +6,8 @@ public class SpeechSynthesisWithViseme {
     public static void main(String[] args) {
         try {
             // Replace with your own subscription key and region
-            String subscriptionKey = "1a37c2b2c1ad42af93fc80fce6bb38fb";
-            String region = "eastus";
+            String subscriptionKey = "xxxxxxxxxxxx";
+            String region = "xxxxx";
 
             // Replace with your own SSML string
             String ssml = "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' "
