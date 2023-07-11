@@ -1,13 +1,13 @@
 import requests
 
-endpoint = 'https://xxxx.cognitiveservices.azure.com/'
-key =  'xxxx'
+endpoint = 'https://xxxxx.cognitiveservices.azure.com/'
+key =  'xxxxxxxxxxxxxxxxxxx'
 path = 'translator/text/batch/v1.0/batches'
 constructed_url = endpoint + path
 
-sourceSASUrl = 'https://xxxx.blob.core.windows.net/source'
+sourceSASUrl = 'https://xxxxx.blob.core.windows.net/source'
 
-targetSASUrl = 'https://xxxx.blob.core.windows.net/dest'
+targetSASUrl = 'https://xxxxx.blob.core.windows.net/dest'
 
 body= {
     "inputs": [
@@ -22,7 +22,7 @@ body= {
                     "targetUrl": targetSASUrl,
                     "storageSource": "AzureBlob",
                     "category": "general",
-                    "language": "ja"
+                    "language": "en"
                 }
             ]
         }
